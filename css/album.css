@@ -1,0 +1,64 @@
+:root {
+	--jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+	padding-top: var(--jumbotron-padding-y);
+	padding-bottom: var(--jumbotron-padding-y);
+	margin-bottom: 0;
+	background-color: #fff;
+}
+
+@media (min-width: 768px) {
+	.jumbotron {
+		padding-top: calc(var(--jumbotron-padding-y) * 2);
+		padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+	}
+}
+
+.card-text {
+	font-size: 15px;
+}
+
+.jumbotron p:last-child {
+	margin-bottom: 0;
+}
+
+.jumbotron-heading {
+	font-weight: 300;
+}
+
+.jumbotron .container {
+	max-width: 40rem;
+}
+
+.contact-form{
+	margin: 6em 0;
+	position: relative;
+}
+
+.contact-form h1 {
+	padding: 2em 1px;
+}
+
+.contact-form .right {
+	max-width: 600px;
+}
+
+.contact-form .right .btn-secondary {
+	border: 0;
+}
+
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 15px;
+}
+
+footer {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+footer p {
+	margin-bottom: .25rem;
+}
